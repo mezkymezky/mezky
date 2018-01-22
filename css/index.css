@@ -11,32 +11,29 @@ body {
 .image {
   display: block;
   position: absolute;
-  top: 130px;
   left: 0;
   right: 0;
-  z-index: 7;
-  width: 350px;
   height: auto;
   margin: 0 auto;
   overflow: hidden;
 }
 
 .text {
-  position: absolute;
-  top: 720px;
-  left: 44%;
-  z-index: 6;
+  float: left;
+  margin-top: 3px;
   font-size: 1em;
   color: rgb(0, 0, 0);
 }
 
-.container-1 {
-  position: relative;
-  float: left;
-  clear: both;
-  width: 8%;
-  height: 22px;
-  margin: 482px 0 0 57.91146%;
+._container {
+  position: absolute;
+  top: 596px;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  width: 12.0833333333%;
+  height: 28px;
+  margin: 0 auto;
 }
 
 .container-2 {
@@ -44,6 +41,16 @@ body {
   top: 691px;
   left: 41.6666666666%;
   z-index: 3;
+}
+
+.container-3 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 5;
+  width: 8%;
+  height: 22px;
+  margin: -811px 0 0 69.56771%;
 }
 
 .element-1 {
@@ -78,12 +85,26 @@ body {
 }
 
 .element-4 {
+  position: relative;
   clear: both;
+  z-index: 1;
   width: 100%;
-  height: 667px;
-  margin-top: 361px;
+  height: 1292px;
+  margin-top: 617px;
   background: url('../images/IMG-7437(3).JPG') rgba(0, 0, 0, 0.69);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left bottom;
+}
+
+.image-1 {
+  top: 632px;
+  z-index: 7;
+  width: 75px;
+}
+
+.image-2 {
+  top: 140px;
+  z-index: 6;
+  width: 350px;
 }
