@@ -4,11 +4,28 @@ body {
   color: rgb(0, 0, 0);
 }
 
+.element {
+  float: left;
+}
+
+.image {
+  display: block;
+  position: absolute;
+  top: 130px;
+  left: 0;
+  right: 0;
+  z-index: 7;
+  width: 350px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
 .text {
   position: absolute;
-  top: 108px;
-  left: 10.8%;
-  z-index: 7;
+  top: 720px;
+  left: 44%;
+  z-index: 6;
   font-size: 1em;
   color: rgb(0, 0, 0);
 }
@@ -17,7 +34,6 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 6;
   width: 8%;
   height: 22px;
   margin: 482px 0 0 57.91146%;
@@ -31,7 +47,6 @@ body {
 }
 
 .element-1 {
-  float: left;
   width: 6.1666666666%;
   height: 85px;
   margin: -175px 0 0 47.91146%;
@@ -43,7 +58,6 @@ body {
 
 .element-2 {
   position: relative;
-  float: left;
   z-index: 0;
   width: 100%;
   height: 61px;
@@ -52,9 +66,8 @@ body {
 
 .element-3 {
   position: relative;
-  float: left;
   clear: both;
-  z-index: 5;
+  z-index: 4;
   width: 100%;
   height: 99px;
   margin-top: -61px;
@@ -65,35 +78,6 @@ body {
 }
 
 .element-4 {
-  position: absolute;
-  top: 137px;
-  left: 0;
-  right: 0;
-  z-index: 8;
-  width: 29.8333333333%;
-  height: 328px;
-  margin: 0 auto;
-  background: url('../images/Mezky-logo-single-WHT-2000px(7).jpg') rgb(222, 222, 222);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.element-5 {
-  position: absolute;
-  top: 534px;
-  left: 36.4%;
-  z-index: 4;
-  width: 26.3333333333%;
-  height: 316px;
-  background: url('../images/instagram-1581266_1920(3).jpg') rgb(222, 222, 222);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.element-6 {
-  float: left;
   clear: both;
   width: 100%;
   height: 667px;
