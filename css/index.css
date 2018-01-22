@@ -14,9 +14,11 @@ body {
   margin-top: -3px;
 }
 
-.container .text {
-  font-size: 1em;
-  color: rgb(0, 0, 0);
+.container .element {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgb(222, 222, 222);
 }
 
 .element {
@@ -25,29 +27,28 @@ body {
 
 .text {
   float: left;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
 }
 
 .container-1 {
-  position: relative;
-  z-index: 11;
-  width: 18.1666666666%;
-  height: 22px;
-  margin: 5px 0 0 1.08073%;
+  clear: both;
+  width: 25.6%;
+  height: 339px;
+  margin: 29px 0 0 37.1992199999%;
 }
 
 .container-2 {
-  position: relative;
-  z-index: 9;
+  clear: both;
   width: 3.75%;
   height: 43px;
-  margin: 3px 0 0 76.6692708333%;
+  margin: 177px 0 0 48.08203%;
 }
 
 .container-4 {
   clear: both;
-  width: 25.0833333333%;
-  height: 407px;
-  margin: 76px 0 0 37.75%;
+  width: 18.1666666666%;
+  margin: 13px 0 0 40.9166666666%;
 }
 
 .element-1 {
@@ -61,57 +62,28 @@ body {
 }
 
 .element-2 {
-  position: relative;
-  z-index: 2;
   width: 100%;
   height: 61px;
   background-color: rgb(51, 51, 51);
 }
 
 .element-3 {
-  width: 114.6341463414%;
-  height: 43px;
-  background: url('../images/instagram-1581266_1920(2).jpg') rgb(222, 222, 222);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  width: 93.0366225839%;
+  height: 339px;
+  margin-left: 3.45371%;
+  background-image: url('../images/Mezky-logo-single-WHT-2000px(7).jpg');
 }
 
 .element-4 {
-  clear: both;
-  width: 511.1111111111%;
-  height: 258px;
-  margin: 131px 0 0 -2211.07639%;
-  background-color: rgb(177, 164, 50);
+  width: 114.6341463414%;
+  height: 43px;
+  background-image: url('../images/instagram-1581266_1920(2).jpg');
 }
 
 .element-5 {
-  width: 86.8312757201%;
-  height: 328px;
-  margin-left: 5.76132%;
-  background: url('../images/Mezky-logo-single-WHT-350PX.jpg') rgb(222, 222, 222);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.element-6 {
   clear: both;
   width: 100%;
   height: 318px;
-  margin-top: 104px;
+  margin-top: 11px;
   background-color: rgba(0, 0, 0, 0.69);
-}
-
-.text-1 {
-  position: relative;
-  clear: both;
-  z-index: 3;
-  width: 4.6666666666%;
-  min-height: 40px;
-  margin: -58px 0 0 1.16146%;
-  font-family: Optima-Regular;
-  font-size: 2.188em;
-  font-weight: normal;
-  color: rgb(230, 230, 230);
 }
