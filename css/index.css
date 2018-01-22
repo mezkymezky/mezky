@@ -1,11 +1,7 @@
 body {
   background-color: rgb(255, 255, 255);
-  font: 400 1em/1.38 Arial;
+  font: 400 1em/1.38 Optima;
   color: rgb(0, 0, 0);
-}
-
-.container {
-  position: absolute;
 }
 
 .container .element {
@@ -20,24 +16,37 @@ body {
 }
 
 .text {
-  float: left;
+  position: absolute;
+  top: 724px;
+  left: 43.9166666666%;
+  z-index: 9;
   font-size: 1em;
   color: rgb(0, 0, 0);
 }
 
-.container-1 {
+._container {
+  position: absolute;
   top: 120px;
-  left: 37.19921875%;
-  z-index: 6;
+  left: 37.1666666666%;
+  z-index: 5;
   width: 25.5989583333%;
   height: 339px;
 }
 
 .container-2 {
-  top: 682px;
-  left: 40.9166666666%;
-  z-index: 4;
-  width: 18.1666666666%;
+  position: relative;
+  float: left;
+  clear: both;
+  width: 8%;
+  height: 22px;
+  margin: 482px 0 0 57.91276%;
+}
+
+.container-3 {
+  position: absolute;
+  top: 691px;
+  left: 41.6666666666%;
+  z-index: 3;
 }
 
 .element-1 {
@@ -64,7 +73,7 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 8;
+  z-index: 7;
   width: 100%;
   height: 99px;
   margin-top: -61px;
@@ -74,11 +83,11 @@ body {
   background-position: center center;
 }
 
-.element-4 {
+.element-5 {
   position: absolute;
   top: 603px;
-  left: 47.1614583333%;
-  z-index: 7;
+  left: 46.9166666666%;
+  z-index: 6;
   width: 6.1666666666%;
   height: 74px;
   background: url('../images/instagram-1581266_1920(3).jpg') rgb(222, 222, 222);
@@ -92,7 +101,7 @@ body {
   clear: both;
   width: 100%;
   height: 667px;
-  margin-top: 865px;
+  margin-top: 361px;
   background: url('../images/IMG-7437(3).JPG') rgba(0, 0, 0, 0.69);
   background-repeat: no-repeat;
   background-size: cover;
