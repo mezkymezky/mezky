@@ -5,24 +5,18 @@ body {
 }
 
 .container {
-  float: left;
-}
-
-.container .container {
-  width: 91.1111111111%;
-  height: 43px;
-  margin-top: -3px;
+  position: absolute;
 }
 
 .container .element {
+  float: left;
+  width: 93.0366225839%;
+  height: 339px;
+  margin-left: 3.45371%;
+  background: url('../images/Mezky-logo-single-WHT-2000px(7).jpg') rgb(222, 222, 222);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-color: rgb(222, 222, 222);
-}
-
-.element {
-  float: left;
 }
 
 .text {
@@ -32,26 +26,22 @@ body {
 }
 
 .container-1 {
-  clear: both;
-  width: 25.6%;
+  top: 120px;
+  left: 37.19921875%;
+  z-index: 6;
+  width: 25.5989583333%;
   height: 339px;
-  margin: 29px 0 0 37.1992199999%;
 }
 
 .container-2 {
-  clear: both;
-  width: 3.75%;
-  height: 43px;
-  margin: 177px 0 0 48.08203%;
-}
-
-.container-4 {
-  clear: both;
+  top: 642px;
+  left: 40.9166666666%;
+  z-index: 4;
   width: 18.1666666666%;
-  margin: 13px 0 0 40.9166666666%;
 }
 
 .element-1 {
+  float: left;
   width: 6.1666666666%;
   height: 85px;
   margin: -175px 0 0 47.91146%;
@@ -62,28 +52,49 @@ body {
 }
 
 .element-2 {
+  position: relative;
+  float: left;
+  z-index: 0;
   width: 100%;
   height: 61px;
   background-color: rgb(51, 51, 51);
 }
 
 .element-3 {
-  width: 93.0366225839%;
-  height: 339px;
-  margin-left: 3.45371%;
-  background-image: url('../images/Mezky-logo-single-WHT-2000px(7).jpg');
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 8;
+  width: 100%;
+  height: 99px;
+  margin-top: -61px;
+  background: url('../images/IMG-7437(2).JPG') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .element-4 {
-  width: 114.6341463414%;
-  height: 43px;
-  background-image: url('../images/instagram-1581266_1920(2).jpg');
+  position: absolute;
+  top: 563px;
+  left: 47.1614583333%;
+  z-index: 7;
+  width: 6.1666666666%;
+  height: 74px;
+  background: url('../images/instagram-1581266_1920(3).jpg') rgb(222, 222, 222);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-.element-5 {
+.element-6 {
+  float: left;
   clear: both;
   width: 100%;
-  height: 318px;
-  margin-top: 11px;
-  background-color: rgba(0, 0, 0, 0.69);
+  height: 167px;
+  margin-top: 647px;
+  background: url('../images/IMG-7437(3).JPG') rgba(0, 0, 0, 0.69);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
 }
