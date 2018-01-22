@@ -1,7 +1,18 @@
 body {
   background-color: rgb(255, 255, 255);
   font: 400 1em/1.38 Optima;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.container .container {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 1053px;
+}
+
+.container .element {
+  position: relative;
 }
 
 .element {
@@ -18,13 +29,22 @@ body {
   overflow: hidden;
 }
 
+.text {
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.text-2 p {
+  margin-bottom: 1em;
+}
+
 ._button {
   display: block;
   position: absolute;
-  top: 572px;
+  top: 552px;
   left: 0;
   right: 0;
-  z-index: 8;
+  z-index: 7;
   width: 39.125%;
   height: 35px;
   margin: 0 auto;
@@ -35,30 +55,24 @@ body {
   color: rgb(0, 0, 0);
 }
 
-._container {
-  display: block;
-  position: relative;
-  float: left;
-  clear: both;
-  width: 100%;
-  height: 56px;
-  margin-top: 413px;
-}
-
 .container-1 {
   position: absolute;
-  top: 691px;
-  left: 41.6666666666%;
-  z-index: 2;
+  top: 653px;
+  left: 0;
+  right: 0;
+  z-index: 13;
+  width: 101.375%;
+  height: 526px;
+  margin: 0 auto;
 }
 
-.container-2 {
+.container-3 {
   position: relative;
   float: left;
   clear: both;
   width: 8%;
   height: 22px;
-  margin: 639px 0 0 69.5625%;
+  margin: 649px 0 0 69.5625%;
 }
 
 .element-1 {
@@ -82,7 +96,7 @@ body {
 .element-3 {
   position: relative;
   clear: both;
-  z-index: 3;
+  z-index: 2;
   width: 100%;
   height: 99px;
   margin-top: -61px;
@@ -92,14 +106,62 @@ body {
   background-position: center center;
 }
 
+.element-4 {
+  z-index: 8;
+  width: 98.643649815%;
+  height: 1066px;
+  background-color: rgb(222, 222, 222);
+}
+
+.element-5 {
+  clear: both;
+  z-index: 9;
+  width: 96.5474722564%;
+  height: 1058px;
+  margin: -1058px 0 0 1.10589%;
+  background-color: rgb(77, 77, 77);
+}
+
 .image-1 {
-  top: 106px;
-  z-index: 7;
+  top: 102px;
+  z-index: 6;
   width: 350px;
 }
 
 .image-2 {
   top: 0;
-  z-index: 5;
+  z-index: 4;
   width: 57px;
+}
+
+.text-1 {
+  position: relative;
+  float: left;
+  z-index: 10;
+  width: 91.6152897657%;
+  min-height: 216px;
+  margin: -749px 0 0 2.95931%;
+}
+
+.text-2 {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  right: 0;
+  z-index: 11;
+  width: 94.081381011%;
+  min-height: 218px;
+  margin: 0 auto;
+  border: 1px solid rgba(54, 31, 110, 0);
+  text-align: center;
+}
+
+._container-1 {
+  display: block;
+  position: relative;
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 56px;
+  margin-top: 393px;
 }
