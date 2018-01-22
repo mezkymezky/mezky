@@ -18,37 +18,53 @@ body {
   overflow: hidden;
 }
 
-.text {
+._button {
+  display: block;
+  position: absolute;
+  top: 572px;
+  left: 0;
+  right: 0;
+  z-index: 8;
+  width: 19.875%;
+  height: 35px;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+._container {
+  display: block;
   position: relative;
   float: left;
   clear: both;
-  z-index: 8;
-  margin: 6px 0 0 0.58333%;
-  font-size: 1em;
-  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 56px;
+  margin-top: 413px;
 }
 
 .container-1 {
   position: absolute;
   top: 691px;
   left: 41.6666666666%;
-  z-index: 3;
+  z-index: 2;
 }
 
 .container-2 {
   position: relative;
   float: left;
   clear: both;
-  z-index: 5;
   width: 8%;
   height: 22px;
-  margin: -811px 0 0 69.56771%;
+  margin: 639px 0 0 69.5625%;
 }
 
 .element-1 {
   width: 6.1666666666%;
   height: 85px;
-  margin: -175px 0 0 47.91146%;
+  margin: -175px 0 0 47.91016%;
   background: url('../images/Mezky-logo-single-WHT-2000px(2).jpg') rgb(222, 222, 222);
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,7 +82,7 @@ body {
 .element-3 {
   position: relative;
   clear: both;
-  z-index: 4;
+  z-index: 3;
   width: 100%;
   height: 99px;
   margin-top: -61px;
@@ -76,27 +92,14 @@ body {
   background-position: center center;
 }
 
-.element-4 {
-  position: relative;
-  clear: both;
-  z-index: 1;
-  width: 100%;
-  height: 1292px;
-  margin-top: 589px;
-  background: url('../images/IMG-7437(3).JPG') rgba(0, 0, 0, 0.69);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left bottom;
-}
-
 .image-1 {
-  top: 116px;
+  top: 106px;
   z-index: 7;
   width: 350px;
 }
 
 .image-2 {
-  top: 542px;
-  z-index: 6;
-  width: 75px;
+  top: 0;
+  z-index: 5;
+  width: 57px;
 }
