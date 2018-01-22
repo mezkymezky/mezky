@@ -6,8 +6,8 @@ body {
 
 .text {
   position: absolute;
-  top: 559px;
-  left: 44%;
+  top: 108px;
+  left: 10.8%;
   z-index: 7;
   font-size: 1em;
   color: rgb(0, 0, 0);
@@ -17,6 +17,7 @@ body {
   position: relative;
   float: left;
   clear: both;
+  z-index: 6;
   width: 8%;
   height: 22px;
   margin: 482px 0 0 57.91146%;
@@ -69,8 +70,8 @@ body {
   left: 0;
   right: 0;
   z-index: 8;
-  width: 14.8333333333%;
-  height: 218px;
+  width: 29.8333333333%;
+  height: 328px;
   margin: 0 auto;
   background: url('../images/Mezky-logo-single-WHT-2000px(7).jpg') rgb(222, 222, 222);
   background-repeat: no-repeat;
@@ -80,11 +81,11 @@ body {
 
 .element-5 {
   position: absolute;
-  top: 474px;
-  left: 47.1666666666%;
+  top: 534px;
+  left: 36.4%;
   z-index: 4;
-  width: 5%;
-  height: 60px;
+  width: 26.3333333333%;
+  height: 316px;
   background: url('../images/instagram-1581266_1920(3).jpg') rgb(222, 222, 222);
   background-repeat: no-repeat;
   background-size: cover;
